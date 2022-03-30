@@ -18,14 +18,14 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="text" name="Weight" maxlength="7" placeholder="Weight of fish(Gram g)" required="required" />
-        <input type="text" name="Length1" maxlength="7" placeholder="Vertical length(cm)" required="required" />
-		<input type="text" name="Length2" maxlength="7" placeholder="Diagonal length(cm)" required="required" />
-		<input type="text" name="Length3" maxlength="7" placeholder="Cross length(cm)" required="required" />
-		<input type="text" name="Height" maxlength="7" placeholder="Height(cm)" required="required" />
-		<input type="text" name="Width" maxlength="7" placeholder="Diagonal width(cm)" required="required" />
+    	<input type="text" name="Weight" maxlength="7" placeholder="Enter Weight of fish(Gram g)" required="required" />
+        <input type="text" name="Length1" maxlength="7" placeholder="Enter Vertical length(cm)" required="required" />
+		<input type="text" name="Length2" maxlength="7" placeholder="Enter Diagonal length(cm)" required="required" />
+		<input type="text" name="Length3" maxlength="7" placeholder="Enter Cross length(cm)" required="required" />
+		<input type="text" name="Height" maxlength="7" placeholder="Enter Height(cm)" required="required" />
+		<input type="text" name="Width" maxlength="7" placeholder="Enter Diagonal width(cm)" required="required" />
 
-        <button type="submit" class="btn btn-primary btn-block btn-large">Make Prediction</button>
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predicting Fish Type</button>
     </form>
 
    <br>
