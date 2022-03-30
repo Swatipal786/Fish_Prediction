@@ -1,4 +1,4 @@
-## Fish Prediction
+## Fish Species Prediction
 *This project intends to classify the different species of fish*
 
 For this project we have used the Fish dataset which is available on: https://www.kaggle.com/aungpyaeap/fish-market
@@ -22,4 +22,4 @@ Logistic Regression        |  75 %
 
 Logistic Regression - Fish_Classification.ipynb
 
-Live Application: https://fishspeciesprediction.herokuapp.com/
+Live Application: https://predictingfishspecies.herokuapp.com/
